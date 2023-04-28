@@ -1,0 +1,5 @@
+*.txt
+!requirements.txt
+*.drawio
+__pycache__/
+*.vscode/
