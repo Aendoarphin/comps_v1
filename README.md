@@ -3,6 +3,7 @@
 Comps is a trading cards sold price analyzer. This desktop GUI app provides the following information corresponding to the searched trading card:
 - The highest and lowest sold price
 - A historical price chart to indicate the price trends
+- See [demo](https://www.youtube.com/watch?v=G1poX9Qd7oY)
 
     *NOTE: THE API RETRIEVES DATA ONLY FROM EBAY.COM*
 
