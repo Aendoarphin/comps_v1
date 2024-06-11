@@ -72,11 +72,11 @@ class Utils:
                     elif key == "date_sold":
                         output += f"<u>Date Sold</u>: {value} {br}"
                     elif key == "image_url":
-                        output += f'<u>Image</u>: <a style ="color: purple;" href="{value}">Go to image</a> {br}'
+                        output += f'<u>Image</u>: <a style ="color: purple;" href="{value}" target="_blank">Go to image</a> {br}'
                     elif key == "shipping_price":
                         output += f"<u>Shipping Price</u>: {value}{br}"
                     elif key == "link":
-                        output += f'<u>Link</u>: <a style ="color: purple;" href="{value}">Go to listing</a> {br}'
+                        output += f'<u>Link</u>: <a style ="color: purple;" href="{value}" target="_blank">Go to listing</a> {br}'
                 output += space
             return output
         else:
